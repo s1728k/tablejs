@@ -59,7 +59,7 @@
                 return ctx.sync();
             })
               .then(function () {
-                  // app.showNotification("Success");
+                  app.showNotification("Success");
                   console.log("Success!");
               })
             .catch(function (error) {
